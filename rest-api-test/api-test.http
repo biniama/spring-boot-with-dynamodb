@@ -1,0 +1,26 @@
+###
+POST http://localhost:8080/content
+Content-Type: application/json
+
+{
+  "contents": [
+    {
+      "contentId": "83c1b410-ec14-4c2e-b165-afbf98f59627",
+      "value": 0,
+      "profileId": null,
+      "description": "description",
+      "placements": [
+        {
+          "features": "feature",
+          "category": [
+            "category1",
+            "category2"
+          ],
+          "visible": true,
+          "value": 100
+        }
+      ],
+      "expirationDate": "2021-08-06 15:01:57"
+    }
+  ]
+}
